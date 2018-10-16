@@ -31,6 +31,8 @@ public class JLIst1 {
         JScrollPane scrollPane=new JScrollPane();
         JList list = new JList(new String[]{"a","b","c","a","b","c","a","b","c","a","b","c","a","b","c","a","b","c"});
         scrollPane.getViewport().add(list);
+                
+        
         //////////////////////////////////////////
         frame.add(scrollPane);
         

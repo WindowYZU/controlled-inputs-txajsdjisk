@@ -87,6 +87,7 @@ public class JList2 extends javax.swing.JFrame {
             DefaultListModel model=(DefaultListModel) jList1.getModel();
             model.remove(jList1.getSelectedIndex());
             jList1.updateUI();
+            
             //////////////////////////////////
         }
     }//GEN-LAST:event_jButton2ActionPerformed
